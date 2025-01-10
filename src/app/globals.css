@@ -19,3 +19,43 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  gap: 16px;
+  margin: auto;
+  width: 400px;
+  color: black;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  background: black;
+  color: white;
+  width: 100%;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+p {
+  color: red;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
